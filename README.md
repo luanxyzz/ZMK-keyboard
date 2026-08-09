@@ -22,7 +22,7 @@ The workflow in `.github/workflows/build.yml` builds the firmware after push.
 With a ZMK/Zephyr toolchain:
 
 ```sh
-west build -p -b nice_nano_v2 zmk/app -- -DSHIELD=nrf52840_arduino_keyboard
+west build -p -b nice_nano_v2 zmk/app -- -DZMK_CONFIG=config -DSHIELD=nrf52840_arduino_keyboard
 ```
 
 ## Flash
