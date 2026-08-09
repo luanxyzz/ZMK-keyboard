@@ -16,6 +16,7 @@ project.
 ## Build With GitHub Actions
 
 The workflow in `.github/workflows/build.yml` builds the firmware after push.
+The downloadable artifact is named `firmware-v0.1.<run_number>.zip`.
 
 ## Build Locally
 

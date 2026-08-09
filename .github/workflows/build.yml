@@ -5,3 +5,5 @@ on: [push, pull_request, workflow_dispatch]
 jobs:
   build:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@v0.3.0
+    with:
+      archive_name: firmware-v0.1.${{ github.run_number }}
