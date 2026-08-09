@@ -1,7 +1,7 @@
-# nRF52840 ZMK Keyboard
+# ZMK-keyboard
 
-This folder is a standalone ZMK user config for the nice!nano v2 macro keypad
-and rotary encoder project.
+Standalone ZMK user config for the nice!nano v2 macro keypad and rotary encoder
+project.
 
 ## Hardware
 
@@ -15,8 +15,7 @@ and rotary encoder project.
 
 ## Build With GitHub Actions
 
-Use this `ZMK` folder as the root of a `zmk-keyboard` GitHub repository. The
-workflow in `.github/workflows/build.yml` will build the firmware after push.
+The workflow in `.github/workflows/build.yml` builds the firmware after push.
 
 ## Build Locally
 
