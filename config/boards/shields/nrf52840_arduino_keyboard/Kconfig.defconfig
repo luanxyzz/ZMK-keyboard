@@ -1,6 +1,6 @@
 if SHIELD_NRF52840_ARDUINO_KEYBOARD
 
 config ZMK_KEYBOARD_NAME
-    default "nRF52840 Macro Keypad"
+    default "ZMK Keypad"
 
 endif
