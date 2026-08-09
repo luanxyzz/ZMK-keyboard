@@ -17,10 +17,10 @@ project.
 ## Build With GitHub Actions
 
 The workflow in `.github/workflows/build.yml` builds the firmware after push.
-The normal keyboard build enables the `zmk-usb-logging` snippet for debug logs.
 The downloadable artifact is named `firmware-v0.1.<run_number>.zip`.
 The OLED uses the built-in ZMK display screen on an SSD1306 128x64 panel.
 ZMK Studio support is built with `studio-rpc-usb-uart` and `CONFIG_ZMK_STUDIO=y`.
+Press `ESC` + `SPACE` together to unlock editing in ZMK Studio.
 
 ## Build Locally
 
