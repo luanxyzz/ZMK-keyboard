@@ -1,0 +1,6 @@
+---
+include:
+  - board: nice_nano_v2
+    shield: nrf52840_arduino_keyboard
+  - board: nice_nano_v2
+    shield: settings_reset

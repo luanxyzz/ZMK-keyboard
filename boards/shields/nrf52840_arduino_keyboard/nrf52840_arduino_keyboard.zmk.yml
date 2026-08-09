@@ -1,0 +1,7 @@
+file_format: "1"
+id: nrf52840_arduino_keyboard
+name: nRF52840 Arduino Keyboard
+type: shield
+requires: [pro_micro]
+features:
+  - keys
